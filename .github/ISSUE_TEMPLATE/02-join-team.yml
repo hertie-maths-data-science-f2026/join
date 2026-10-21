@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        The teams that already exist, and how much room each has left, are listed on [the semester site, under Assignments](https://hertie-maths-data-science-f2026.github.io/assignments/).
+        The teams that already exist, and how much room each has left, are listed on [the assignment's page](https://hertie-maths-data-science-f2026.github.io/assignments/03-assignment-3.html).
 
         To **join** one, choose *Join or switch to an existing team* and type its name exactly as that page spells it. To **start** one, choose *Create a new team* and pick a name nobody is using yet.
 
@@ -24,7 +24,6 @@ body:
       label: Assignment
       description: The group assignment you are forming a team for.
       options:
-        - assignment-2
         - assignment-3
     validations:
       required: true
